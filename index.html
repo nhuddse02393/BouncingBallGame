@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        canvas{ border:#666 1px solid;}
+    </style>
+</head>
+<body onload="init()">
+<table>
+    <tr>
+        <td><canvas id="game" width="800" height="600"></canvas></td>
+        <td>
+            Score: <input id="score" value="0" style="border: hidden;" readonly><br>
+            <button id="replayButton" onclick="location.reload()">Replay</button>
+        </td>
+    </tr>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
